@@ -16,7 +16,7 @@ const createRouter = function(collection) {
         });
     });
 
-    router.get('/:id', (req, res) => {
-        
-    })
+    return router
 }
+
+module.exports = createRouter;

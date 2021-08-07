@@ -317,3 +317,35 @@ db.recipes.insertMany([
                 "sourceUrl": "http://www.foodnetwork.com/recipes/ina-garten/niman-ranch-burgers-recipe.html"
                 }
 ]);
+
+db.tips.insertMany([
+    {
+        "title" : "How to Start Cooking at Home",
+        "link": "https://www.eatwell101.com/cooking-tips-for-beginner-cooks-start-cooking"
+    },
+    {
+        "title" : "Cooking dictionary",
+        "link": "https://www.goodhousekeeping.com/food-recipes/cooking/tips/a16958/dictionary-cooking-terms/"
+    },
+    {
+        "title" : "6 cooking Tips!",
+        "link": "https://www.youtube.com/watch?v=af3dEbAd4Os&ab_channel=HowToMakeSushi"
+    },
+    {
+        "title" : "Cooking tools for beginners!",
+        "link": "https://www.bonappetit.com/story/10-essential-kitchen-tools-beginner-cooks"
+    },
+    {
+        "title" : "How to cook perfect rice",
+        "link": "https://www.youtube.com/watch?v=h5TUy4sqBZE&list=PL7qHxImKz_6DNxGFm4qxah-oAeZmwUtf7&index=5"
+    },
+    {
+        "title" : "How to spatchcock chicken",
+        "link": "https://www.youtube.com/watch?v=72dQonQa9jE"
+    },
+    {
+        "title" : "Chef Debunks Myths",
+        "link": "https://www.youtube.com/watch?v=-OSnaYVEEqk&ab_channel=FoodInsider"
+    }
+
+])
