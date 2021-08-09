@@ -1,11 +1,11 @@
 import React from 'react';
 
 const TipsAndTricks = ({tipsAndTricks}) => {
-    const tipsAndTricksNodes = tipsAndTricks.map(tipAndTrick => {
-        return <div key={tipAndTrick._id}>
-            {tipAndTrick.title}
+    const tipsAndTricksNodes = tipsAndTricks.map(tipsAndTricks => {
+        return <div key={tipsAndTricks._id}>
+            {tipsAndTricks.title}
             <br></br>
-            {tipAndTrick.link}
+            {tipsAndTricks.link}
             <br></br>
             <br></br>
             </div>
