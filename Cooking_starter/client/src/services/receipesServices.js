@@ -1,4 +1,5 @@
 // const apiKey = process.getIndividualRecipe.SPOONACULAR_KEY;
+import apiKey from '../apikey'
 const baseUrl = "http://localhost:5000/api/recipes/"
 const baseApiUrl ="https://api.spoonacular.com/recipes/"
 
