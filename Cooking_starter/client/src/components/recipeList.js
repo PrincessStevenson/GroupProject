@@ -2,12 +2,11 @@ import React from 'react'
 import Recipe from './recipe_component'
 
 
-const RecipeList = ({recipes}) => {
+const RecipeList = ({recipes, handleRecipeClick}) => {
 
     const ListOfRecipes = recipes.map( (recipe) => {
         return   <li>
-                  {console.log(recipe)}
-                  <Recipe recipe = {recipe} key = {recipe._id} />
+                   <Recipe  onClick = {handleRecipeClick} recipe = {recipe} key = {recipe._id} />
                   </li>
         });
 
