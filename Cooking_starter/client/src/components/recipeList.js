@@ -4,9 +4,13 @@ import Recipe from './recipe_component'
 
 const RecipeList = ({recipes, handleRecipeClick}) => {
 
+
+    const handleClick = (event) =>{
+        handleRecipeClick(event.target.value.id)
+    }
     const ListOfRecipes = recipes.map( (recipe) => {
         return   <li>
-                   <Recipe  onClick = {handleRecipeClick} recipe = {recipe} key = {recipe._id} />
+                   <Recipe  onClick = {handleClick} recipe = {recipe} key = {recipe._id} />
                   </li>
         });
 
