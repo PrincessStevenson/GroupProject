@@ -14,23 +14,24 @@ const MainComponent = () => {
         .then(res => {setRecipes(res)})
     }, []);
 
+    
     const handleRecipeClick = (recipeId) => {
         RecipeService.getIndividualRecipe(recipeId)
         .then(result => setIndividualRecipe(result))
     }
     
-    const loadCondition = () => {
+    const recipeShown = () => {
         if(individualRecipe) {
-            <IndividualRecipe individualRecipe = {individualRecipe} />
+             return <IndividualRecipe individualRecipe = {individualRecipe} />
             }
         else {
-            <RecipeList recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>
+             return <RecipeList recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>
         }
     }
 
     return (
         <>
-        {<RecipeList recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>}
+        {recipeShown()}
         </>
     )
 }
