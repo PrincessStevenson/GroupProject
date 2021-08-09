@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
+import tipsAndTricksService from './containers/TipsAndTricksService';
+import TipsAndTricks from './components/TipsAndTricks';
 import './App.css';
 
 function App() {
+  const [tipsAndTricks, setTipsAndTricks] = useState([]);
+
+  useEffect(() => {
+    tipsAndTricksService.getTipsAndTricks()
+    .then(tipsAndTricks => setTipsAndTricks(tipsAndTricks));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="tips">
+      <TipsAndTricks tipsAndTricks={tipsAndTricks} />
     </div>
   );
 }
