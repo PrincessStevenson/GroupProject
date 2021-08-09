@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import tipsAndTricksService from './containers/TipsAndTricksService';
+import tipsAndTricksService from './services/TipsAndTricksService';
 import TipsAndTricks from './components/TipsAndTricks';
 import './App.css';
 
@@ -12,7 +12,7 @@ function App() {
   }, []);
 
   return (
-    <div id="tips">
+    <div id="full-app">
       <TipsAndTricks tipsAndTricks={tipsAndTricks} />
     </div>
   );
