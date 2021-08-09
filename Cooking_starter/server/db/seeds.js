@@ -6,7 +6,7 @@ db.recipes.insertMany([
 
 {
     "id": 539480,
-    "imageType": "jpg",
+    "imageType": "https://farm6.static.flickr.com/5223/5691245605_e23e1f70ff.jpg",
     "title": "Strawberry Shortcake Pancakes",
     "readyInMinutes": 45,
     "servings": 4,
@@ -15,7 +15,7 @@ db.recipes.insertMany([
     {
     "id": 512530,
     "imageType": "jpg",
-    "title": "Strawberry Shortcake Pancakes (+ GIVEAWAY!)",
+    "title": "Strawberry Shortcake Pancakes",
     "readyInMinutes": 30,
     "servings": 10,
     "sourceUrl": "http://www.theroastedroot.net/gluten-free-strawberry-shortcake-pancakes/"

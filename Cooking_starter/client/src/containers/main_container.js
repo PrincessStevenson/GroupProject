@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import RecipeService from '../services/receipesServices';
-import Recipe from '../components/recipe_component';
+import RecipeList from '../components/recipeList';
 
 const MainComponent = () => {
 
@@ -12,11 +12,12 @@ const MainComponent = () => {
         .then(res => {setRecipes(res)})
     }, []);
 
+    console.log(recipes)
     
     return (
         <>
         <h1> This is Main Component</h1>
-        <Recipe recipes = {recipes} />
+        <RecipeList recipes = {recipes} />
         </>
     )
 }
