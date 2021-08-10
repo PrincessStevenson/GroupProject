@@ -13,8 +13,9 @@
 .recipe_header{
     display:flex;
     justify-content: center;
-    width:100%;
+    width:auto;
     color: ghostwhite;
+    margin-right: 400px;
 }
 
 .list_of_recipes {
@@ -24,4 +25,5 @@
     justify-content: space-evenly;
     width: auto;
     list-style-type: none;
+    color: ghostwhite;
 }
