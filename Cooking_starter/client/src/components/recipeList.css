@@ -1,11 +1,11 @@
-.list_recipe{
+.list_item_recipe{
     width:30%;
     flex-wrap:wrap;
     margin-bottom: 30px;
     border: 1px;
     border-style:solid;
-    border-color: black;
-    background-color:blue;
+    border-color: ghostwhite;
+    background-color: rgb(100, 148, 236);
     color: azure;
     
 }
@@ -13,6 +13,7 @@
 .recipe_header{
     display:flex;
     justify-content: center;
+    width:100%;
 }
 
 .list_of_recipes {

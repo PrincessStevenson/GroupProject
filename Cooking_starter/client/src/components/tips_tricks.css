@@ -1,0 +1,21 @@
+.tips{
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+    margin-top: 6.2%;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    background-color: rgb(100, 148, 236);
+    color: white;
+    
+}
+.link{
+    text-decoration: none;
+    color:azure
+}
+
+.tips-header{
+    text-align: center;
+}
