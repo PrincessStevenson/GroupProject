@@ -20,11 +20,11 @@ function App() {
   return (
 
     <div id="full-app">
-      <header>
+      <header class = "top_header">
           <img src ={logo} alt="Cook with PACE" />
       </header>
-      <body>
-          <MainComponent />
+      <body class= "main_component">
+          <MainComponent id= "recipes"/>
           <TipsAndTricks tipsAndTricks={tipsAndTricks} />
       </body>
     </div>

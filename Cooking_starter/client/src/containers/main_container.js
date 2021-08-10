@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import RecipeService from '../services/receipesServices';
 import RecipeList from '../components/recipeList';
 import IndividualRecipe from '../components/individual_recipe_comp';
+import './main_container.css';
 
 const MainComponent = () => {
 
@@ -22,17 +23,17 @@ const MainComponent = () => {
     
     const recipeShown = () => {
         if(individualRecipe) {
-             return <IndividualRecipe individualRecipe = {individualRecipe} />
+             return <IndividualRecipe class= "individual_recipe" individualRecipe = {individualRecipe} />
             }
         else {
-             return <RecipeList recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>
+             return <RecipeList class= "recipe_list" recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>
         }
     }
 
     return (
-        <>
+        <div class ="content_items">
         {recipeShown()}
-        </>
+        </div>
     )
 }
 
