@@ -1,0 +1,25 @@
+.list_recipe{
+    width:30%;
+    flex-wrap:wrap;
+    margin-bottom: 30px;
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    background-color:blue;
+    color: azure;
+    
+}
+
+.recipe_header{
+    display:flex;
+    justify-content: center;
+}
+
+.list_of_recipes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    width: auto;
+    list-style-type: none;
+}

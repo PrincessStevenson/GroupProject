@@ -39,7 +39,7 @@ db.recipes.insertMany([
     {
     "id": 469936,
     "imageType": "jpg",
-    "title": "Easy Vegan and Gluten-Free Pancakes (Strawberry Shortcake + Whipped Cream)",
+    "title": "Easy Vegan and Gluten-Free Pancakes",
     "readyInMinutes": 30,
     "servings": 9,
     "sourceUrl": "http://ohsheglows.com/2014/02/25/easy-vegan-and-gluten-free-pancakes-strawberry-shortcake-w-whipped-cream/"
@@ -47,7 +47,7 @@ db.recipes.insertMany([
     {
     "id": 1100250,
     "imageType": "jpg",
-    "title": "MISS SHORTCAKE DONUTS (STRAWBERRY SHORTCAKE)",
+    "title": "MISS SHORTCAKE DONUTS ",
     "readyInMinutes": 18,
     "servings": 8,
     "sourceUrl": "http://littlespicejar.com/miss-shortcake-donuts/"
