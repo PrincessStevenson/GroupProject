@@ -9,7 +9,11 @@ const IndividualRecipe = ({individualRecipe}) => {
     
     const diets = individualRecipe.diets.join((diet) => {
         return <p> `{diet},` </p>
-    })
+    });
+
+    // const handleButtonClick = () => {
+    //     this.setValue(null);
+    // };
         
 
     return (
@@ -25,7 +29,7 @@ const IndividualRecipe = ({individualRecipe}) => {
            </ul>
            <p>{individualRecipe.instructions}</p>
            
-           <button>Recipe List</button>
+           {/* <button type="button" onClick={this.handleButtonClick}>Recipe List</button> */}
            
 
         </section>
