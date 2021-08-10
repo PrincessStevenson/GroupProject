@@ -45,7 +45,7 @@ const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
             </ul>
             </div>
 
-            <img class = "recipe_image" src ={individualRecipe.image} alt= "Image of Recipe" height = "250" width ="350" />
+            <img class = "recipe_image" src ={individualRecipe.image} alt= "Image of Recipe" height = "400" width ="500" />
            </div>
 
 

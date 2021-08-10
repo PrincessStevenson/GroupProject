@@ -13,5 +13,9 @@ h1{
 }
 
 .instructions{
-    margin-left: 120px;
+    margin-left: 80px;
+}
+
+.recipe_image{
+    padding-top: 50px;
 }

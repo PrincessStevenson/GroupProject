@@ -7,6 +7,10 @@
     border-color: ghostwhite;
     background-color: rgb(100, 148, 236);
     color: ghostwhite;
+    cursor:pointer;
+    align-content:center;
+    text-align: center;
+    
     
 }
 
@@ -15,7 +19,7 @@
     justify-content: center;
     width:auto;
     color: ghostwhite;
-    margin-right: 400px;
+    margin-right: 300px;
 }
 
 .list_of_recipes {
