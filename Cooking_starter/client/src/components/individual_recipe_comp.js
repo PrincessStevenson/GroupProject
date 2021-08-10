@@ -6,6 +6,11 @@ const IndividualRecipe = ({individualRecipe}) => {
     const ingredients = individualRecipe.extendedIngredients.map((ingredient) => {
         return <li> {ingredient.original} </li>
     });
+    
+    const diets = individualRecipe.diets.join((diet) => {
+        return <p> `{diet},` </p>
+    })
+        
 
     return (
 
@@ -14,12 +19,14 @@ const IndividualRecipe = ({individualRecipe}) => {
            <h1>{individualRecipe.title}</h1>
            <p> Time to Make: {individualRecipe.readyInMinutes} minutes </p>
            <p> Servings: {individualRecipe.servings} people </p>
+           <p> Diet Category: {diets} </p>
            <ul>
                {ingredients}
            </ul>
-           {/* <p>{individualRecipe.diets}</p> */}
            <p>{individualRecipe.instructions}</p>
-           {/* <p>{individualRecipe.analyzedInstructions}</p> */}
+           
+           <button>Recipe List</button>
+           
 
         </section>
     )
