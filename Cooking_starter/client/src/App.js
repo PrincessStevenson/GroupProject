@@ -4,7 +4,7 @@ import MainComponent from './containers/main_container';
 import { useState, useEffect } from 'react';
 import tipsAndTricksService from './services/TipsAndTricksService';
 import TipsAndTricks from './components/TipsAndTricks';
-
+import logo from './images/final_logo.jpg'
 import './App.css';
 
 function App() {
@@ -15,12 +15,18 @@ function App() {
     .then(tipsAndTricks => setTipsAndTricks(tipsAndTricks));
   }, []);
 
+  console.log(logo)
+
   return (
 
     <div id="full-app">
-          <h1>Cooking At Your Own PACE!</h1> 
+      <header>
+          <img src ={logo} alt="Cook with PACE" />
+      </header>
+      <body>
           <MainComponent />
           <TipsAndTricks tipsAndTricks={tipsAndTricks} />
+      </body>
     </div>
 
   );
