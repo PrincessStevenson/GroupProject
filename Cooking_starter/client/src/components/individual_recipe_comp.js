@@ -1,19 +1,31 @@
 import React from 'react'
 
 
-const IndividualRecipe = ({individualRecipe}) => {
+const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
 
     const ingredients = individualRecipe.extendedIngredients.map((ingredient) => {
         return <li> {ingredient.original} </li>
     });
     
-    const diets = individualRecipe.diets.join((diet) => {
-        return <p> `{diet},` </p>
+    const diets = individualRecipe.diets.map((diet) => {
+        return <li> {diet} </li>
     });
 
-    // const handleButtonClick = () => {
-    //     this.setValue(null);
-    // };
+    const dietCategory = () => {
+        if (diets.length > 0) {
+            return (
+            <div>  
+            <p>Diet Category: </p>
+            <ul> {diets} </ul>
+            </div>
+            )
+        }
+        return null
+    }
+
+    const handleButtonClick = () => {
+        resetIndvidualRecipe()
+    };
         
 
     return (
@@ -23,13 +35,15 @@ const IndividualRecipe = ({individualRecipe}) => {
            <h1>{individualRecipe.title}</h1>
            <p> Time to Make: {individualRecipe.readyInMinutes} minutes </p>
            <p> Servings: {individualRecipe.servings} people </p>
-           <p> Diet Category: {diets} </p>
+           {dietCategory()}
+           
+           <p>Ingredients: </p>
            <ul>
                {ingredients}
            </ul>
            <p>{individualRecipe.instructions}</p>
            
-           {/* <button type="button" onClick={this.handleButtonClick}>Recipe List</button> */}
+           <button type="button" onClick={handleButtonClick}>Recipe List</button>
            
 
         </section>

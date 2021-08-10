@@ -20,15 +20,22 @@ const MainComponent = () => {
         RecipeService.getIndividualRecipe(recipeId)
         .then(result => setIndividualRecipe(result))
     }
+
+    const resetIndvidualRecipe = () => {
+        setIndividualRecipe(null)
+    }
     
     const recipeShown = () => {
         if(individualRecipe) {
-             return <IndividualRecipe class= "individual_recipe" individualRecipe = {individualRecipe} />
+             return <IndividualRecipe class= "individual_recipe" individualRecipe = {individualRecipe} 
+             resetIndvidualRecipe = {resetIndvidualRecipe}/>
             }
         else {
              return <RecipeList class= "recipe_list" recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>
         }
     }
+
+    
 
     return (
         <div class ="content_items">
