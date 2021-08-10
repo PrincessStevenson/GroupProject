@@ -16,7 +16,7 @@ const TipsAndTricks = ({tipsAndTricks}) => {
             <h2 class= "tips-header">Tips and Tricks</h2>
             
             <div >
-                <ul>
+                <ul class ="tips-list">
                 {tipsAndTricksNodes}  
                 </ul>
             </div>

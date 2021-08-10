@@ -15,7 +15,7 @@ function App() {
     .then(tipsAndTricks => setTipsAndTricks(tipsAndTricks));
   }, []);
 
-  console.log(logo)
+  
 
   return (
 

@@ -6,16 +6,25 @@
     margin-top: 6.2%;
     border: 1px;
     border-style:solid;
-    border-color: black;
+    border-color: ghostwhite;
     background-color: rgb(100, 148, 236);
-    color: white;
+    color: ghostwhite;
+    height: 400px;
+    position: fixed;
+    right:100px;
     
 }
 .link{
-    text-decoration: none;
-    color:azure
+    text-decoration: ;
+    color:ghostwhite;
+    
 }
 
 .tips-header{
     text-align: center;
+    text-decoration: underline;
+}
+
+.tips-list{
+    margin-right: 50px;
 }
