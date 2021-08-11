@@ -1,7 +1,7 @@
 import React from 'react'
 import './individual_recipe_component.css'
-import { FacebookShareButton } from "react-share";
-import { FacebookIcon } from "react-share";
+import { FacebookShareButton, TwitterShareButton } from "react-share";
+import { FacebookIcon, TwitterIcon } from "react-share";
 
 
 const IndividualRecipe = ({individualRecipe, resetIndividualRecipe}) => {
@@ -38,11 +38,19 @@ const IndividualRecipe = ({individualRecipe, resetIndividualRecipe}) => {
 
             <FacebookShareButton 
                 url={"http://www.facebook.com"}
-                quote={"Cook at your own PACE"}
+                quote={"Cook at your own PACE!"}
                 hashtag="#recipes"
                 className="Demo__facebook_share-button">
-                 <FacebookIcon size={36} round/>Share on Facebook
-              </FacebookShareButton>
+                 <FacebookIcon size={36} round/>
+            </FacebookShareButton>
+              <br />
+            <TwitterShareButton
+                url={"http://localhost:3000/"}
+                title={"Cook at your own PACE!"}
+                hashtag="#cooking"
+                className="Demo__facebook_share-button">
+                <TwitterIcon size={36} round/>
+            </TwitterShareButton>
            
            
            <button type="button" onClick={handleButtonClick}>Back To Recipe List</button>

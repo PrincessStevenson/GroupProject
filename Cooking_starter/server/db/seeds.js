@@ -20,7 +20,6 @@ db.recipes.insertMany([
     "servings": 10,
     "sourceUrl": "http://www.theroastedroot.net/gluten-free-strawberry-shortcake-pancakes/"
     },
-    
     {
     "id": 994593,
     "imageType": "https://ohsweetbasil.com/wp-content/uploads/2015/04/healthy-strawberry-shortcake-gluten-free-pancakes-ohsweetbasil.com-5i.jpg",
@@ -165,7 +164,6 @@ db.recipes.insertMany([
     "servings": 6,
     "sourceUrl": "http://www.foodnetwork.com/recipes/giada-de-laurentiis/roasted-pork-loin-with-roasted-garlic-vinaigrette-recipe.html"
     },
-   
     {
     "id": 471033,
     "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Apple-Cinnamon-Pork-Loin_exps166985_ESC3139121B04_05_5bC_RMS-6.jpg?fit=700,1024",
@@ -206,8 +204,7 @@ db.recipes.insertMany([
     "servings": 3,
     "sourceUrl": "http://www.peanutbutterandpeppers.com/2012/04/12/apple-stuffed-pork-loin/"
     },
-    
-     {
+    {
     "id": 445985,
     "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps13091_CB1284C76.jpg",
     "title": "Roasted Pork Loin",
@@ -295,344 +292,142 @@ db.recipes.insertMany([
     "servings": 6,
     "sourceUrl": "http://www.foodnetwork.com/recipes/ina-garten/niman-ranch-burgers-recipe.html"
     },
-    // {
-    // "id": 405036,
-    // "imageType": "jpg",
-    // "title": "Beef Tenderloin with Mushroom Sauce",
-    // "readyInMinutes": 20,
-    // "servings": 4,
-    // "sourceUrl": "http://www.tasteofhome.com/Recipes/beef-tenderloin-with-mushroom-sauce"
-    // },    
-    // {
-    // "id": 372933,
-    // "imageType": "jpg",
-    // "title": "Beef Tenderloin in Mushroom Sauce",
-    // "readyInMinutes": 30,
-    // "servings": 2,
-    // "sourceUrl": "http://www.tasteofhome.com/Recipes/beef-tenderloin-in-mushroom-sauce"
-    // },
-        
-    // {
-    // "id": 143621,
-    // "imageType": "jpg",
-    // "title": "Beef Tenderloin Steaks with Shiitake Mushroom Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/beef-tenderloin-steaks-with-shiitake-mushroom-sauce-10000001723423/"
-    // },
-        
-    // {
-    // "id": 227676,
-    // "imageType": "jpg",
-    // "title": "Beef Tenderloin with Mushroom-Red Wine Sauce",
-    // "readyInMinutes": 19,
-    // "servings": 2,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/beef-tenderloin-with-mushroom-50400000109565/"
-    // },
-        
-    // {
-    // "id": 273896,
-    // "imageType": "jpg",
-    // "title": "Roast Beef Tenderloin With Port-Mushroom Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 8,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/roast-beef-tenderloin-with-port-mushroom-sauce-10000001133786/"
-    // },
-        
-    
-        
-    // {
-    // "id": 499217,
-    // "imageType": "jpg",
-    // "title": "Roasted Beef Tenderloin with Mushroom-Port Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 6,
-    // "sourceUrl": "http://www.mygourmetconnection.com/recipes/main-courses/beef/roasted-beef-tenderloin-mushroom-port-sauce.php"
-    // },
-        
-    // {
-    // "id": 223062,
-    // "imageType": "jpg",
-    // "title": "Beef Tenderloin Steaks with Red Wine-Mushroom Sauce",
-    // "readyInMinutes": 11,
-    // "servings": 4,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/beef-tenderloin-steaks-with-red-wine-mushroom-sauce-10000001896069/"
-    // },
-    // {
-    // "id": 93909,
-    // "imageType": "png",
-    // "title": "Irish Beef Hand Pies",
-    // "readyInMinutes": 60,
-    // "servings": 4,
-    // "sourceUrl": "http://www.marthastewart.com/317055/irish-beef-hand-pies"
-    // },
-    
-    // {
-    // "id": 578688,
-    // "imageType": "jpg",
-    // "title": "Irish Beef and Vegetable Hand Pies: A St. Patrick's Day Delight",
-    // "readyInMinutes": 90,
-    // "servings": 26,
-    // "sourceUrl": "http://www.foodfanatic.com/2013/03/irish-beef-and-vegetable-hand-pies-a-st-patricks-day-delight/"
-    // },
-        
-    // {
-    // "id": 71372,
-    // "imageType": "jpg",
-    // "title": "Pork Pot Pies With Corn Pudding Crust",
-    // "readyInMinutes": 50,
-    // "servings": 8,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/pork-pot-pies-with-corn-pudding-crust-10000001673151/"
-    // },
-    
-    // {
-    // "id": 71358,
-    // "imageType": "jpg",
-    // "title": "Pizza Pot Pies With Whole Wheat Crust Topping",
-    // "readyInMinutes": 30,
-    // "servings": 4,
-    // "sourceUrl": "http://www.howsweeteats.com/2010/06/pizza-pot-pies-with-whole-wheat-crust/"
-    // },
-    
-    // {
-    // "id": 420589,
-    // "imageType": "jpg",
-    // "title": "Muffin-Cup Cheddar Beef Pies",
-    // "readyInMinutes": 60,
-    // "servings": 10,
-    // "sourceUrl": "http://www.tasteofhome.com/recipes/muffin-cup-cheddar-beef-pies"
-    // },
-    
-    // {
-    // "id": 29712,
-    // "imageType": "jpg",
-    // "title": "Oh-so-easy Broccoli Cheddar Pot Pies",
-    // "readyInMinutes": 15,
-    // "servings": 4,
-    // "sourceUrl": "http://ohmyveggies.com/recipe-oh-so-easy-broccoli-cheddar-pot-pies/"
-    // },
-    
-    // {
-    // "id": 71663,
-    // "imageType": "jpg",
-    // "title": "Chicken and Vegetable Pot Pies with Cream Cheese Crust",
-    // "readyInMinutes": 45,
-    // "servings": 11,
-    // "sourceUrl": "http://www.epicurious.com/recipes/food/views/Chicken-and-Vegetable-Pot-Pies-with-Cream-Cheese-Crust-104683"
-    // },
-    
-    // {
-    // "id": 492579,
-    // "imageType": "jpg",
-    // "title": "Sausage, Sweet Potato and Smoked Cheddar Pot Pies",
-    // "readyInMinutes": 70,
-    // "servings": 8,
-    // "sourceUrl": "http://www.cinnamonspiceandeverythingnice.com/sausage-sweet-potato-smoked-cheddar-pot-pie/"
-    // },
-    
-    // {
-    // "id": 616329,
-    // "imageType": "jpg",
-    // "title": "Butternut Squash and Beefy Mushroom Pot Pies w/Flakey Taleggio Crust",
-    // "readyInMinutes": 210,
-    // "servings": 6,
-    // "sourceUrl": "http://www.halfbakedharvest.com/butternut-squash-beefy-mushroom-pot-pies-wflakey-taleggio-crust/"
-    // },
-
-    // {
-    // "id": 4800,
-    // "imageType": "jpg",
-    // "title": "Sweet-n-smoky Salmon With Ginger Mahogany Rice",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://aspicyperspective.com/2010/06/03/less-is-more/"
-    // },
-    
-    
-    // {
-    // "id": 497565,
-    // "imageType": "jpg",
-    // "title": "Blake’s Sweet and Smoky Grilled Salmon",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://www.afarmgirlsdabbles.com/2013/07/16/blakes-sweet-and-smoky-grilled-salmon-recipe/"
-    // },
-    
-    // {
-    // "id": 496208,
-    // "imageType": "jpg",
-    // "title": "Smoky Sweet Potatoes and Avocado with Cauliflower Rice",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://mywholefoodlife.com/2014/05/12/smoky-sweet-potatoes-avocado-cauliflower-rice/"
-    // },
-    
-    // {
-    // "id": 36200,
-    // "imageType": "jpg",
-    // "title": "Salmon-ginger Rice Bowl",
-    // "readyInMinutes": 6,
-    // "servings": 1,
-    // "sourceUrl": "http://www.wholeliving.com/132738/salmon-ginger-rice-bowl"
-    // },
-    
-    // {
-    // "id": 602022,
-    // "imageType": "jpg",
-    // "title": "Sweet Sesame Ginger Salmon",
-    // "readyInMinutes": 30,
-    // "servings": 4,
-    // "sourceUrl": "http://freerange-human.com/recipes/sweet-sesame-ginger-salmon/"
-    // },
-    
-    // {
-    // "id": 46854,
-    // "imageType": "jpg",
-    // "title": "Spicy Lemongrass Crab",
-    // "readyInMinutes": 4,
-    // "servings": 1,
-    // "sourceUrl": "http://norecipes.com/blog/2009/03/23/spicy-lemongrass-crab/"
-    // },
-    
-    // {
-    // "id": 526334,
-    // "imageType": "jpg",
-    // "title": "Spicy Lemongrass Chicken Wings",
-    // "readyInMinutes": 25,
-    // "servings": 3,
-    // "sourceUrl": "https://en.christinesrecipes.com/2013/02/spicy-lemongrass-chicken-wings.html"
-    // },
-    
-    
-    // {
-    // "id": 1027,
-    // "imageType": "jpg",
-    // "title": "Seared Sea Bass with Spicy Lemongrass Crust",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://www.finecooking.com/recipes/seared-sea-bass-spicy-lemongrass-crust.aspx"
-    // },
-    
-    // {
-    // "id": 203188,
-    // "imageType": "jpg",
-    // "title": "Spicy Tuna Salad with Young Ginger and Lemongrass",
-    // "readyInMinutes": 15,
-    // "servings": 2,
-    // "sourceUrl": "http://www.seriouseats.com/recipes/2012/10/spicy-tuna-salad-young-ginger-lemongrass-recipe.html"
-    // },
-    
-    // {
-    // "id": 27697,
-    // "imageType": "jpg",
-    // "title": "Melon-and-Strawberry Salad with Spicy Lemongrass Syrup",
-    // "readyInMinutes": 45,
-    // "servings": 6,
-    // "sourceUrl": "http://www.myrecipes.com/recipe/melon-and-strawberry-salad-with-spicy-lemongrass-syrup-10000001928093/"
-    // },
-    
-    // {
-    // "id": 76692,
-    // "imageType": "jpg",
-    // "title": "Spicy Steamed Mussels With Lemongrass, Chile, And Basil",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "http://www.finecooking.com/recipes/steamed-mussels-lemongrass-chile-basil.aspx"
-    // },
-    
-    
-    // {
-    // "id": 253493,
-    // "imageType": "jpg",
-    // "title": "Lemongrass Crab & Scallop Cakes with a Spicy Cucumber Dipping Sauce",
-    // "readyInMinutes": 360,
-    // "servings": 6,
-    // "sourceUrl": "http://www.sippitysup.com/recipe/lemongrass-crab-scallop-cakes-with-a-spicy-cucumber-dipping-sauce/"
-    // },
-    
-    // {
-    // "id": 900652,
-    // "imageType": "jpg",
-    // "title": "Lemongrass Chicken Soup",
-    // "readyInMinutes": 45,
-    // "servings": 8,
-    // "sourceUrl": "http://www.azestybite.com/lemongrass-chicken-soup/"
-    // },
-    // {
-    // "id": 574170,
-    // "imageType": "jpg",
-    // "title": "Browned Butter Mushroom Ravioli with Sage",
-    // "readyInMinutes": 30,
-    // "servings": 4,
-    // "sourceUrl": "http://themessybaker.com/2013/07/11/browned-butter-mushroom-ravioli-with-sage/"
-    // },
-    
-    // {
-    // "id": 657377,
-    // "imageType": "jpg",
-    // "title": "Pumpkin Ravioli With Browned Butter Sage Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 4,
-    // "sourceUrl": "https://spoonacular.com/pumpkin-ravioli-with-browned-butter-sage-sauce-657377"
-    // },
-    
-    // {
-    // "id": 628556,
-    // "imageType": "jpg",
-    // "title": "Herbed Veggie Risotto with Browned Butter Mushroom Sauce #TripleSBites",
-    // "readyInMinutes": 65,
-    // "servings": 6,
-    // "sourceUrl": "http://www.cafeterrablog.com/2015/02/09/herbed-veggie-risotto-with-browned-butter-mushroom-sauce-triplesbites/"
-    // },
-    
-    // {
-    // "id": 77289,
-    // "imageType": "jpg",
-    // "title": "Wild Mushroom Ravioli With Hazelnut Butter Sauce",
-    // "readyInMinutes": 10,
-    // "servings": 4,
-    // "sourceUrl": "http://www.loveandoliveoil.com/2007/08/wild-mushroom-ravioli-with-hazelnut-butter-sauce.html"
-    // },
-    
-    // {
-    // "id": 423253,
-    // "imageType": "jpg",
-    // "title": "Sage & Browned Butter Ravioli",
-    // "readyInMinutes": 30,
-    // "servings": 4,
-    // "sourceUrl": "http://www.tasteofhome.com/Recipes/sage---browned-butter-ravioli"
-    // },
-    
-    // {
-    // "id": 758974,
-    // "imageType": "jpg",
-    // "title": "Wild Mushroom Ravioli in Sage and Brown Butter Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 5,
-    // "sourceUrl": "http://www.vegetariantimes.com/recipe/wild-mushroom-ravioli-in-sage-and-brown-butter-sauce/"
-    // },
-    
-    
-    // {
-    // "id": 942845,
-    // "imageType": "jpg",
-    // "title": "Browned Butter Butternut Squash Ravioli",
-    // "readyInMinutes": 20,
-    // "servings": 4,
-    // "sourceUrl": "https://eat-drink-love.com/browned-butter-butternut-squash-ravioli/"
-    // },
-    
-    // {
-    // "id": 115776,
-    // "imageType": "jpg",
-    // "title": "Chestnut Ravioli with Sage Browned Butter",
-    // "readyInMinutes": 45,
-    // "servings": 8,
-    // "sourceUrl": "http://www.epicurious.com/recipes/food/views/Chestnut-Ravioli-with-Sage-Browned-Butter-104234"
-    // },
-    
-    
-
+    {
+    "id": 405036,
+    "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps33838_THCA153054B10_15_8b.jpg?fit=700,1024",
+    "title": "Beef Tenderloin with Mushroom Sauce",
+    "readyInMinutes": 20,
+    "servings": 4,
+    "sourceUrl": "http://www.tasteofhome.com/Recipes/beef-tenderloin-with-mushroom-sauce"
+    },    
+    {
+    "id": 372933,
+    "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Beef-Tenderloin-in-Mushroom-Sauce_EXPS_SDFM17_8073_B10_06_6b.jpg?fit=700,1024",
+    "title": "Beef Tenderloin in Mushroom Sauce",
+    "readyInMinutes": 30,
+    "servings": 2,
+    "sourceUrl": "http://www.tasteofhome.com/Recipes/beef-tenderloin-in-mushroom-sauce"
+    },
+    {
+    "id": 578688,
+    "imageType": "https://food-fanatic-res.cloudinary.com/iu/s--K1Y-kSOy--/t_xlarge_l/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1364913462/irish-beef-are-vegetable-handpies.jpg",
+    "title": "Irish Beef and Vegetable Hand Pies: A St. Patrick's Day Delight",
+    "readyInMinutes": 90,
+    "servings": 26,
+    "sourceUrl": "http://www.foodfanatic.com/2013/03/irish-beef-and-vegetable-hand-pies-a-st-patricks-day-delight/"
+    },
+    {
+    "id": 71358,
+    "imageType": "http://www.howsweeteats.com/wp-content/uploads/2010/06/IMG_6311-1024x574.jpg",
+    "title": "Pizza Pot Pies With Whole Wheat Crust Topping",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.howsweeteats.com/2010/06/pizza-pot-pies-with-whole-wheat-crust/"
+    },
+    {
+    "id": 420589,
+    "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Muffin-Cup-Cheddar-Beef-Pies_exps166713_SD143203B10_16_10bC_RMS.jpg?fit=700,1024",
+    "title": "Muffin-Cup Cheddar Beef Pies",
+    "readyInMinutes": 60,
+    "servings": 10,
+    "sourceUrl": "http://www.tasteofhome.com/recipes/muffin-cup-cheddar-beef-pies"
+    },
+    {
+    "id": 29712,
+    "imageType": "https://ohmyveggies.com/wp-content/uploads/2012/10/broccoli_cheddar_pot_pie_feature.jpg",
+    "title": "Oh-so-easy Broccoli Cheddar Pot Pies",
+    "readyInMinutes": 15,
+    "servings": 4,
+    "sourceUrl": "http://ohmyveggies.com/recipe-oh-so-easy-broccoli-cheddar-pot-pies/"
+    },
+    {
+    "id": 71663,
+    "imageType": "https://assets.epicurious.com/photos/560ea7d07b55306961bff5f4/6:4/w_620%2Ch_413/104683.jpg",
+    "title": "Chicken and Vegetable Pot Pies with Cream Cheese Crust",
+    "readyInMinutes": 45,
+    "servings": 11,
+    "sourceUrl": "http://www.epicurious.com/recipes/food/views/Chicken-and-Vegetable-Pot-Pies-with-Cream-Cheese-Crust-104683"
+    },
+    {
+    "id": 492579,
+    "imageType": "https://www.cinnamonspiceandeverythingnice.com/wp-content/uploads/2012/11/Sausage-+-Sweet-Potato-Pot-Pies1.jpg",
+    "title": "Sausage, Sweet Potato and Smoked Cheddar Pot Pies",
+    "readyInMinutes": 70,
+    "servings": 8,
+    "sourceUrl": "http://www.cinnamonspiceandeverythingnice.com/sausage-sweet-potato-smoked-cheddar-pot-pie/"
+    },
+    {
+    "id": 616329,
+    "imageType": "https://www.halfbakedharvest.com/wp-content/uploads/2014/10/Butternut-Squash-and-Beefy-Mushroom-Pot-Pies-w-Flakey-Taleggio-Crust-32.jpg",
+    "title": "Butternut Squash and Beefy Mushroom Pot Pies w/Flakey Taleggio Crust",
+    "readyInMinutes": 210,
+    "servings": 6,
+    "sourceUrl": "http://www.halfbakedharvest.com/butternut-squash-beefy-mushroom-pot-pies-wflakey-taleggio-crust/"
+    },
+    {
+    "id": 497565,
+    "imageType": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2013/07/Blakes-Sweet-and-Smoky-Grilled-Salmon_AFarmgirlsDabbles_AFD.jpg",
+    "title": "Blake’s Sweet and Smoky Grilled Salmon",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.afarmgirlsdabbles.com/2013/07/16/blakes-sweet-and-smoky-grilled-salmon-recipe/"
+    },
+    {
+    "id": 496208,
+    "imageType": "https://mywholefoodlife.com/wp-content/uploads/2014/05/Sweet-Potato-Avocado-and-Cauliflower-Rice-My-Whole-Food-Life.jpg",
+    "title": "Smoky Sweet Potatoes and Avocado with Cauliflower Rice",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://mywholefoodlife.com/2014/05/12/smoky-sweet-potatoes-avocado-cauliflower-rice/"
+    },
+    {
+    "id": 46854,
+    "imageType": "https://norecipes.com/wp-content/uploads/2009/03/spicy-lemongrass-crab.1024x1024.jpg",
+    "title": "Spicy Lemongrass Crab",
+    "readyInMinutes": 4,
+    "servings": 1,
+    "sourceUrl": "http://norecipes.com/blog/2009/03/23/spicy-lemongrass-crab/"
+    },
+    {
+    "id": 1027,
+    "imageType": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18193044/fc022ph59-01-main.jpg",
+    "title": "Seared Sea Bass with Spicy Lemongrass Crust",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.finecooking.com/recipes/seared-sea-bass-spicy-lemongrass-crust.aspx"
+    },
+    {
+    "id": 76692,
+    "imageType": "https://s3.amazonaws.com/finecooking.s3.tauntonclud.com/app/uploads/2017/04/18133434/051098016-01-steamed-lemongrass-mussels-main.jpg",
+    "title": "Spicy Steamed Mussels With Lemongrass, Chile, And Basil",
+    "readyInMinutes": 45,
+    "servings": 4,
+    "sourceUrl": "http://www.finecooking.com/recipes/steamed-mussels-lemongrass-chile-basil.aspx"
+    },
+    {
+    "id": 423253,
+    "imageType": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Sage-Browned-Butter-Ravioli_exps131126_TH132767C04_24_3bC_RMS-4.jpg?fit=700,1024",
+    "title": "Sage & Browned Butter Ravioli",
+    "readyInMinutes": 30,
+    "servings": 4,
+    "sourceUrl": "http://www.tasteofhome.com/Recipes/sage---browned-butter-ravioli"
+    },
+    {
+    "id": 758974,
+    "imageType": "https://www.vegetariantimes.com/wp-content/uploads/2017/05/ravioli2_2000_1125.jpg?crop=535:301&width=1070&enable=upscale",
+    "title": "Wild Mushroom Ravioli in Sage and Brown Butter Sauce",
+    "readyInMinutes": 45,
+    "servings": 5,
+    "sourceUrl": "http://www.vegetariantimes.com/recipe/wild-mushroom-ravioli-in-sage-and-brown-butter-sauce/"
+    },
+    {
+    "id": 942845,
+    "imageType": "https://eat-drink-love.com/wp-content/uploads/2017/11/Browned-Butter-Butternut-Squash-Ravioli-3-title.jpg",
+    "title": "Browned Butter Butternut Squash Ravioli",
+    "readyInMinutes": 20,
+    "servings": 4,
+    "sourceUrl": "https://eat-drink-love.com/browned-butter-butternut-squash-ravioli/"
+    },
 
 ]);
 

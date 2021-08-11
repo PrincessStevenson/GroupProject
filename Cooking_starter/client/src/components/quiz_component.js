@@ -19,10 +19,8 @@ const Quiz = () => {
       question10: null
     })
 
-    const setAnswer = function(questionId, answerBool){
-      // setScoringTable({...scoringTable, questionId: answerBool})
-      console.log(questionId, answerBool)
-    }
+    const [finalScore , setFinalScore] = useState(null)
+    
 
     const [questions, setQuestions]  = useState([
     {   
@@ -127,42 +125,58 @@ const Quiz = () => {
       },
 ])
 
-// const handleChange = (event) => {
-//        console.log(event.target)
-//        if (event.target.value) {
-//         setAnswers([...answers, event.target.value])
-//        }
-//        console.log(answers)
-//     }
-// onChange ={handleChange}
+    const handleClick = () => {
+      setFinalScore(null)
+    }
+    const handleChange = (questionId, answerBool) => {
+          const answerBoolean = (answerBool === "true")
+          setScoringTable( {...scoringTable , [questionId] : answerBool}) 
+         
+    }
 
- const allQuestions = questions.map( (question) => {
-         return <div class="questions" >
-             <h3> {question.questionText} :</h3>
+    const scoreCalc = () => {
+      return Object.values(scoringTable).reduce(( toBeAddedTo, valueInArray ) => {
+          return toBeAddedTo + (valueInArray ==="true") 
+    }, 0)
+    }
 
-             {question.answerOptions.map(answer => {
-                return (
-                    <label class="answers" for ={answer.answerText} >
-                    <input type ="radio" value ={answer.isCorrect} id ={answer.answerText} name ={question.questionText}/> 
-                    {answer.answerText}                  
-                    </label>
-                )})}   
-                </div>
-     })
+    const onSubmit = (event) =>{
+      event.preventDefault();
+      setFinalScore(scoreCalc())
+
+    } 
+
+    const allQuestions = questions.map((question) => {
+        return (
+          
+            <Question question ={question} handleChange ={handleChange} key ={question.question}/>
+           
+          )
+      })
+         
+
+      const displayResult = () => {
+        if (finalScore) {
+          return (
+            <>
+            <button onClick ={handleClick}> Return to Quiz! </button>
+            <h1> Your Result</h1>
+            <h3> Your Score Is {finalScore} out of 10 Questions!</h3>
+            </>
+          )}
+        else {
+          return  (<form onSubmit ={onSubmit}>
+          {allQuestions}
+          <button type = "submit"> Submit Answers!</button>
+        </form>)
+        }
+      }
  
-
-
- 
-
 return (
     <div class="quiz-component" >
         
    <h2> Quiz element</h2>
-        <form>
-            <Question questions ={questions}/>
-      {allQuestions}
-        <button type = "submit"> Submit Answers!</button>
-        </form>
+       {displayResult()}
     </div>
 )
 
