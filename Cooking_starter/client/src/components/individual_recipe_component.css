@@ -1,0 +1,21 @@
+h1{
+    display:flex;
+    justify-content:space-evenly;
+    width:50%;
+    color: ghostwhite;
+    margin-left: 30%;
+}
+
+.main-meat{
+    color: ghostwhite;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.instructions{
+    margin-left: 80px;
+}
+
+.recipe_image{
+    padding-top: 50px;
+}

@@ -1,9 +1,10 @@
 import React from 'react';
+import './tips_tricks.css';
 
 const TipsAndTricks = ({tipsAndTricks}) => {
     const tipsAndTricksNodes = tipsAndTricks.map(tipsAndTricks => {
         return <div key={tipsAndTricks._id}>
-            <a href={tipsAndTricks.link} target='_blank'>{tipsAndTricks.title}</a>
+            <a href={tipsAndTricks.link} target='_blank' class="link">{tipsAndTricks.title}</a>
 
             <br></br>
             <br></br>
@@ -11,11 +12,11 @@ const TipsAndTricks = ({tipsAndTricks}) => {
     });
 
     return (
-        <section id="tips">
-            <h3>Tips and Tricks</h3>
-            <br></br>
-            <div>
-                <ul>
+        <section class="tips">
+            <h2 class= "tips-header">Tips and Tricks</h2>
+            
+            <div >
+                <ul class ="tips-list">
                 {tipsAndTricksNodes}  
                 </ul>
             </div>

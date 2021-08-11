@@ -4,5 +4,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
     float: left;
-    width:50%;
+    width:auto;
+}
+
+.main_comp{
+    width:70%;
 }

@@ -1,5 +1,8 @@
 import { useState, useEffect } from 'react';
 import React from 'react'
+import './recipe_component.css'
+
+
 
 const Recipe = ({recipe, onRecipeClick}) => {
 
@@ -8,9 +11,10 @@ const Recipe = ({recipe, onRecipeClick}) => {
         onRecipeClick(recipe.id)
     }
     return (
-        <div onClick = {handleClick}>
-        <img src ={recipe.imageType} alt= "Image of Recipe" height = "100" width ="125" ></img>
+        <div class= "content" onClick = {handleClick}>
         <h3  id ={recipe.id}> {recipe.title} </h3>
+        <img src ={recipe.imageType} alt= "Image of Recipe" height = "125" width ="150" ></img>
+        
         <p> Time to Make: {recipe.readyInMinutes} minutes </p>
         <p> Servings: {recipe.servings} people</p>
         </div>

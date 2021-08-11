@@ -38,8 +38,8 @@ const MainComponent = () => {
     
 
     return (
-        <div class ="content_items">
-        {recipeShown()}
+        <div class = "main_comp">
+            {recipeShown()}
         </div>
     )
 }

@@ -1,18 +1,25 @@
-.list_recipe{
+.list_item_recipe{
     width:30%;
     flex-wrap:wrap;
     margin-bottom: 30px;
     border: 1px;
     border-style:solid;
-    border-color: black;
-    background-color:blue;
-    color: azure;
+    border-color: ghostwhite;
+    background-color: rgb(100, 148, 236);
+    color: ghostwhite;
+    cursor:pointer;
+    align-content:center;
+    text-align: center;
+    
     
 }
 
 .recipe_header{
     display:flex;
     justify-content: center;
+    width:auto;
+    color: ghostwhite;
+    margin-right: 300px;
 }
 
 .list_of_recipes {
@@ -22,4 +29,5 @@
     justify-content: space-evenly;
     width: auto;
     list-style-type: none;
+    color: ghostwhite;
 }

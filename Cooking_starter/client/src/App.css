@@ -6,8 +6,15 @@
 .main_component {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  background-color:  rgb(100, 148, 236);
+  color: ghostwhite;
+  
     
+  }
+
+  #full-app{
+    position:relative;
   }
 
 
