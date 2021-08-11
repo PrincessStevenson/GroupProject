@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import tipsAndTricksService from '../services/TipsAndTricksService';
 import TipsAndTricks from '../components/TipsAndTricks';
+import Quiz from '../components/quiz_component';
 
 
 const SideContainer = () => {
@@ -20,7 +21,7 @@ const SideContainer = () => {
 
     const Container_Content = () => {
     if (startQuiz) {
-        return <p>Quiz Component</p>
+        return <Quiz />
     }
     else{
         return <TipsAndTricks tipsAndTricks={tipsAndTricks} handleButtonClick ={handleButtonClick}/>

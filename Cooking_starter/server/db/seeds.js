@@ -339,14 +339,7 @@ db.recipes.insertMany([
     // "sourceUrl": "http://www.myrecipes.com/recipe/roast-beef-tenderloin-with-port-mushroom-sauce-10000001133786/"
     // },
         
-    // {
-    // "id": 45756,
-    // "imageType": "jpg",
-    // "title": "Roast Beef Tenderloin With Mushroom Madeira Sauce",
-    // "readyInMinutes": 45,
-    // "servings": 5,
-    // "sourceUrl": "http://www.wolfgangpuck.com/recipes/view/76644/Roast-Beef-Tenderloin-with-Mushroom-Madeira-Sauce"
-    // },
+    
         
     // {
     // "id": 499217,
@@ -411,15 +404,6 @@ db.recipes.insertMany([
     // },
     
     // {
-    // "id": 357894,
-    // "imageType": "jpeg",
-    // "title": "Irish Cheddar Scones with Corned Beef and Apple Slaw",
-    // "readyInMinutes": 40,
-    // "servings": 35,
-    // "sourceUrl": "http://www.foodnetwork.com/recipes/anne-burrell/irish-cheddar-scones-with-corned-beef-and-apple-slaw-recipe.html"
-    // },
-    
-    // {
     // "id": 29712,
     // "imageType": "jpg",
     // "title": "Oh-so-easy Broccoli Cheddar Pot Pies",
@@ -454,6 +438,7 @@ db.recipes.insertMany([
     // "servings": 6,
     // "sourceUrl": "http://www.halfbakedharvest.com/butternut-squash-beefy-mushroom-pot-pies-wflakey-taleggio-crust/"
     // },
+
     // {
     // "id": 4800,
     // "imageType": "jpg",
@@ -463,23 +448,6 @@ db.recipes.insertMany([
     // "sourceUrl": "http://aspicyperspective.com/2010/06/03/less-is-more/"
     // },
     
-    // {
-    // "id": 373517,
-    // "imageType": "jpeg",
-    // "title": "Mahogany Broiled Chicken with Smoky Lime Sweet Potatoes and Cilantro Chimichurri",
-    // "readyInMinutes": 50,
-    // "servings": 4,
-    // "sourceUrl": "http://www.foodnetwork.com/recipes/mahogany-broiled-chicken-with-smoky-lime-sweet-potatoes-and-cilantro-chimichurri-recipe.html"
-    // },
-    
-    // {
-    // "id": 88296,
-    // "imageType": "jpg",
-    // "title": "Sweet & Smoky Salmon Kabobs",
-    // "readyInMinutes": 45,
-    // "servings": 8,
-    // "sourceUrl": "http://www.food.com/recipe/sweet-smoky-salmon-kabobs-377314"
-    // },
     
     // {
     // "id": 497565,
@@ -515,24 +483,6 @@ db.recipes.insertMany([
     // "readyInMinutes": 30,
     // "servings": 4,
     // "sourceUrl": "http://freerange-human.com/recipes/sweet-sesame-ginger-salmon/"
-    // },
-    
-    // {
-    // "id": 370349,
-    // "imageType": "jpg",
-    // "title": "Teriyaki Salmon with Sesame Ginger Rice",
-    // "readyInMinutes": 20,
-    // "servings": 6,
-    // "sourceUrl": "http://www.tasteofhome.com/Recipes/teriyaki-salmon-with-sesame-ginger-rice"
-    // },
-    
-    // {
-    // "id": 88149,
-    // "imageType": "jpg",
-    // "title": "Grilled Chilli & Cilantro Salmon With Ginger Rice",
-    // "readyInMinutes": 20,
-    // "servings": 2,
-    // "sourceUrl": "http://www.food.com/recipe/grilled-chilli-cilantro-salmon-with-ginger-rice-316772"
     // },
     
     // {

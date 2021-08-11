@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
+import './quiz_component.css'
 
 
-
-
+const Quiz = () => { 
+    
 
 
 const questions = [
@@ -34,3 +35,74 @@ const questions = [
           { answerText: 'Thousands', isCorrect: true },
         ],
       },
+      {
+        questionText: 'What type of beans are used to make baked beans?',
+        answerOptions: [
+          { answerText: 'Butter Beans', isCorrect: false },
+          { answerText: 'Pinto Beans', isCorrect: false },
+          { answerText: 'Haricot Beans', isCorrect: true },
+          { answerText: 'Cranberry Beans', isCorrect: false },
+        ],
+      },
+      {
+        questionText: 'Which vitamin are mushrooms high in?',
+        answerOptions: [
+          { answerText: 'Vitamin A', isCorrect: false },
+          { answerText: 'Vitamin B', isCorrect: true },
+          { answerText: 'Vitamin C', isCorrect: false },
+          { answerText: 'Vitamin CBD', isCorrect: false },
+        ],
+      },
+      {
+        questionText: 'Which fruit has varieties including Tommy Atkins, Haden, Kent, Keitt, Ataulfo and Francis?',
+        answerOptions: [
+          { answerText: 'Mangoes', isCorrect: true },
+          { answerText: 'Apples', isCorrect: false },
+          { answerText: 'Strawberries', isCorrect: false },
+          { answerText: 'Grapes', isCorrect: false },
+        ],
+      },
+      {
+        questionText: 'Which is the most expensive spice in the world by weight?',
+        answerOptions: [
+          { answerText: 'Asafoetida', isCorrect: false },
+          { answerText: 'Caraway Seeds', isCorrect: false },
+          { answerText: 'Grains of Paradise', isCorrect: false },
+          { answerText: 'Saffron', isCorrect: true },
+        ],
+      },
+      {
+        questionText: 'What percentage of water does an average banana contain?',
+        answerOptions: [
+          { answerText: '12%', isCorrect: false },
+          { answerText: '33%', isCorrect: false },
+          { answerText: '60%', isCorrect: false },
+          { answerText: '75%', isCorrect: true },
+        ],
+      },
+      {
+        questionText: 'Which is the most stolen food in the world?',
+        answerOptions: [
+          { answerText: 'Cheese', isCorrect: true },
+          { answerText: 'Meat', isCorrect: false },
+          { answerText: 'Fish', isCorrect: false },
+          { answerText: 'Sweets', isCorrect: false },
+        ],
+      },
+      {
+        questionText: 'Name five ingredients of a profiterole?',
+        answerOptions: [
+          { answerText: 'Butter, Flour, Milk, Eggs, Icing Sugar', isCorrect: false },
+          { answerText: 'Flour, Cream, Sugar, Eggs, Water', isCorrect: false },
+          { answerText: 'Eggs, Butter, Cream, Flour, Sugar', isCorrect: true },
+          { answerText: 'Caster Sugar, Vegetable Oil, Cream, Flour, Eggs', isCorrect: false }
+        ],
+      },
+]
+
+return (
+    <h2> Quiz element</h2>
+)
+
+}
+export default Quiz;
