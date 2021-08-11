@@ -142,7 +142,7 @@ const Quiz = () => {
 
     const onSubmit = (event) =>{
       event.preventDefault();
-      setFinalScore(scoreCalc())
+      setFinalScore( scoreCalc() )
 
     } 
 
@@ -156,7 +156,7 @@ const Quiz = () => {
          
 
       const displayResult = () => {
-        if (finalScore) {
+        if (finalScore || finalScore === 0) {
           return (
             <>
             <button onClick ={handleClick}> Return to Quiz! </button>
