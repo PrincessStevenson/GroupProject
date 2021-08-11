@@ -1,0 +1,30 @@
+.quiz-component{
+    margin-right:0px;
+    width: 30%;
+    list-style-type: none;
+    color: ghostwhite;
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+    border: 1px;
+    border-style:solid;
+    border-color: ghostwhite;
+    margin: 80px 10px ;
+    align-items: center;
+    height:auto;
+}
+.questions{
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+    width: 75%;
+    margin: 0px 50px;
+}
+
+.h1{
+    align-items: center;
+    height: auto;
+}
+
+
+
