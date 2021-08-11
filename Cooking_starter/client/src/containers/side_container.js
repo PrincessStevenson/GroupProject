@@ -29,9 +29,9 @@ const SideContainer = () => {
 };
     
     return (
-        <div>
+        <>
         {Container_Content()}
-        </div>
+        </>
         )
     }
 

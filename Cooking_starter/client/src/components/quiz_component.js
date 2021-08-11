@@ -4,10 +4,9 @@ import './quiz_component.css'
 
 
 const Quiz = () => { 
+
     
-
-
-const questions = [
+    const [questions, setQuestions]  = useState([
     {
       questionText: 'Lady Finger is a variety of which fruit?',
       answerOptions: [
@@ -22,7 +21,7 @@ const questions = [
       answerOptions: [
         { answerText: 'Old Wives Tale', isCorrect: false },
         { answerText: 'It was made up by the RAF during the Second World War', isCorrect: true },
-        { answerText: 'Shakespeare believed it and wrote it into a play', isCorrect: false },
+        { answerText: 'Shakespeare wrote it into his play', isCorrect: false },
         { answerText: 'Originates from the Carrot & Stick Method', isCorrect: false },
       ],
     },
@@ -98,10 +97,38 @@ const questions = [
           { answerText: 'Caster Sugar, Vegetable Oil, Cream, Flour, Eggs', isCorrect: false }
         ],
       },
-]
+])
+
+const handleChange = (event) => {
+       event.target.style.backgroundColor = "hotpink"
+       console.log(event.target)
+    }
+
+
+ const allQuestions = questions.map( (question) => {
+         return <div class="questions" onChange ={handleChange}>
+             <h3> {question.questionText} :</h3>
+
+             {question.answerOptions.map(answer => {
+                return (
+                    <label class="answers" for ={answer.answerText} >
+                    <input type ="radio" value ={answer.isCorrect} id ={answer.answerText} name ={question.questionText}/> 
+                    {answer.answerText}                  
+                    </label>
+                )})}   
+                </div>
+     })
+ 
+
+
+ 
 
 return (
-    <h2> Quiz element</h2>
+    <div class="quiz-component" >
+        
+   <h2> Quiz element</h2>
+      {allQuestions}
+   </div>
 )
 
 }
