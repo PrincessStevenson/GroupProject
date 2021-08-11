@@ -25,6 +25,7 @@ const TipsAndTricks = ({tipsAndTricks, handleButtonClick}) => {
                 {tipsAndTricksNodes}  
                 </ul>
             </div>
+            
         </section>
     )
 };
