@@ -6,7 +6,8 @@ const createRouter = function(collection) {
 
     router.get('/', (req, res) => {
         collection
-        .find()
+        .aggregate([{ $sample: { size: 24 }}])
+        
         .toArray()
         .then((docs) => res.json(docs))
         .catch((error) => {

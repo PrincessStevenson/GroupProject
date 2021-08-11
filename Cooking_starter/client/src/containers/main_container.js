@@ -21,14 +21,14 @@ const MainComponent = () => {
         .then(result => setIndividualRecipe(result))
     }
 
-    const resetIndvidualRecipe = () => {
+    const resetIndividualRecipe = () => {
         setIndividualRecipe(null)
     }
     
     const recipeShown = () => {
         if(individualRecipe) {
              return <IndividualRecipe class= "individual_recipe" individualRecipe = {individualRecipe} 
-             resetIndvidualRecipe = {resetIndvidualRecipe}/>
+             resetIndividualRecipe = {resetIndividualRecipe}/>
             }
         else {
              return <RecipeList class= "recipe_list" recipes = {recipes} handleRecipeClick = {handleRecipeClick}/>

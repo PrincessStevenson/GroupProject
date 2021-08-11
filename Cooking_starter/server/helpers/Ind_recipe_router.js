@@ -14,7 +14,6 @@ indRecipeRouter.get('/:id', (req,res) => {
     return fetch(`${baseApiUrl}${id}/information?apiKey=${apiKey}`)
     .then(res => res.json())
     .then(recipeData => {
-        console.log(apiKey)
         res.json(recipeData)})
     .catch((error) => {
         console.error(error);

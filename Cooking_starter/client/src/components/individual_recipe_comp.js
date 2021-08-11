@@ -1,8 +1,10 @@
 import React from 'react'
 import './individual_recipe_component.css'
+import { FacebookShareButton } from "react-share";
+import { FacebookIcon } from "react-share";
 
 
-const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
+const IndividualRecipe = ({individualRecipe, resetIndividualRecipe}) => {
 
     const ingredients = individualRecipe.extendedIngredients.map((ingredient) => {
         return <li> {ingredient.original} </li>
@@ -25,7 +27,7 @@ const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
     }
 
     const handleButtonClick = () => {
-        resetIndvidualRecipe()
+        resetIndividualRecipe()
     };
         
 
@@ -33,8 +35,20 @@ const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
 
         <section>
             <h1>{individualRecipe.title}</h1>
+
+            <FacebookShareButton 
+                url={"http://www.facebook.com"}
+                quote={"Cook at your own PACE"}
+                hashtag="#recipes"
+                className="Demo__facebook_share-button">
+                 <FacebookIcon size={36} round/>Share on Facebook
+              </FacebookShareButton>
+           
+           
+           <button type="button" onClick={handleButtonClick}>Back To Recipe List</button>
             <div class="main-meat">
 
+            
             <div class= "side-info">
             <p> Time to Make: {individualRecipe.readyInMinutes} minutes </p>
             <p> Servings: {individualRecipe.servings} people </p>
@@ -50,9 +64,7 @@ const IndividualRecipe = ({individualRecipe, resetIndvidualRecipe}) => {
 
 
            <p class= "instructions">{individualRecipe.instructions}</p>
-           
-           
-           <button type="button" onClick={handleButtonClick}>Recipe List</button>
+        
            
 
         </section>
