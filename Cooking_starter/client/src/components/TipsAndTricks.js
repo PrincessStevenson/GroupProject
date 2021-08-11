@@ -1,7 +1,7 @@
 import React from 'react';
 import './tips_tricks.css';
 
-const TipsAndTricks = ({tipsAndTricks, handleButtonClick}) => {
+const TipsAndTricks = ({tipsAndTricks, clientFavs, handleButtonClick}) => {
     const tipsAndTricksNodes = tipsAndTricks.map(tipsAndTricks => {
         return <div key={tipsAndTricks._id}>
             <a href={tipsAndTricks.link} target='_blank' class="link">{tipsAndTricks.title}</a>
@@ -10,6 +10,12 @@ const TipsAndTricks = ({tipsAndTricks, handleButtonClick}) => {
             <br></br>
             </div>
     });
+
+    const clientNodes = clientFavs.map(clientFav => {
+        return <div key={clientFav._id}>
+            <a href={clientFav.sourceUrl} target='_blank' class="link">{clientFav.title}</a>
+        </div>
+    })
 
     const handleClick = () => {
         handleButtonClick()
@@ -23,6 +29,14 @@ const TipsAndTricks = ({tipsAndTricks, handleButtonClick}) => {
             <div >
                 <ul class ="tips-list">
                 {tipsAndTricksNodes}  
+                </ul>
+            </div>
+
+            <h2 class="tips-client">Melinda's Favourite Recipes</h2>
+
+            <div>
+                <ul class="client-list">
+                    {clientNodes}
                 </ul>
             </div>
             

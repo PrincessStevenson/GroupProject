@@ -8,12 +8,18 @@ import Quiz from '../components/quiz_component';
 const SideContainer = () => {
 
     const [tipsAndTricks, setTipsAndTricks] = useState([]);
+    const [clientFavs, setClientFavs] = useState([]);
     const [startQuiz, setStartQuiz] = useState(null);
 
         useEffect(() => {
           tipsAndTricksService.getTipsAndTricks()
           .then(tipsAndTricks => setTipsAndTricks(tipsAndTricks));
         }, []);
+
+        useEffect(() => {
+            tipsAndTricksService.getClientFavs()
+            .then(clientFavs => setClientFavs(clientFavs));
+          }, []);
 
      const handleButtonClick = () => {
          setStartQuiz(true)
@@ -24,7 +30,12 @@ const SideContainer = () => {
         return <Quiz />
     }
     else{
-        return <TipsAndTricks tipsAndTricks={tipsAndTricks} handleButtonClick ={handleButtonClick}/>
+        return (
+        <>
+        <TipsAndTricks tipsAndTricks={tipsAndTricks} handleButtonClick ={handleButtonClick} clientFavs={clientFavs} />
+        </>
+        )
+    
     }
 };
     

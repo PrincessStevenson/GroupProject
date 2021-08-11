@@ -5,7 +5,6 @@ require('dotenv').config();
 const MongoClient = require('mongodb').MongoClient; 
 const createRouter = require('./helpers/create_router');
 const indRecipesRouter = require('./helpers/Ind_recipe_router');
-// const indRecipesRouter = express.indRecipesRouter
 
 
 app.use(express.json());
@@ -22,6 +21,9 @@ MongoClient.connect('mongodb://localhost:27017')
     const tipsCollection = db.collection('tips');
     const tipsRouter = createRouter(tipsCollection);
     app.use('/api/tips', tipsRouter);
+    const favouritesCollection = db.collection('favourites');
+    const favRouter = createRouter(favouritesCollection);
+    app.use('/api/favourites', favRouter)
 })
 .catch(console.error);
 
