@@ -175,7 +175,7 @@ const Quiz = () => {
 return (
     <div class="quiz-component" >
         
-   <h2> Quiz element</h2>
+   <h2> Dish Washer Quiz </h2>
        {displayResult()}
     </div>
 )
