@@ -1,4 +1,4 @@
-# GroupProject - Cooking with PACE
+# Group Project - Cooking with PACE
 CodeClan Week 8 Group Project 1 with Akwasi, Cameron, Emil &amp; Princess - Javascript, HTML, CSS, API's, Prototype
 
 Educational App
