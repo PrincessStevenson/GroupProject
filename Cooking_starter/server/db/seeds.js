@@ -4,8 +4,7 @@ db.dropDatabase();
 
 db.recipes.insertMany([
 
-   {
-    "id": 539480,
+   { "id": 539480,
     "imageType": "https://farm6.static.flickr.com/5223/5691245605_e23e1f70ff.jpg",
     "title": "Strawberry Shortcake Pancakes",
     "readyInMinutes": 45,
@@ -52,15 +51,14 @@ db.recipes.insertMany([
     "servings": 8,
     "sourceUrl": "http://www.marthastewart.com/336107/strawberry-shortcake"
     },
-    {
-
+    {   
         "id": 149340,
         "imageType": "https://www.seriouseats.com/thmb/dlBd0-tQJ_LmZKTyR-Rw8letmCY=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__07__20130726-260810-prosciutto-wrapped-shrimp-95cd7337be404857b81e99eeae0a84b2.jpg",
         "title": "Prosciutto-Wrapped Shrimp with Mozzarella and Basil",
         "readyInMinutes": 60,
         "servings": 4,
         "sourceUrl": "http://www.seriouseats.com/recipes/2013/08/prosciutto-wrapped-shrimp-with-mozzarella-and-basil.html"
-        },
+    },
         {
         "id": 189949,
         "imageType": "https://assets.epicurious.com/photos/56098f186a59cdb91b5f78ba/6:4/w_620%2Ch_413/362531.jpg",
@@ -268,6 +266,7 @@ db.tips.insertMany([
     {
         "title": "Chef Debunks Myths",
         "link": "https://www.youtube.com/watch?v=-OSnaYVEEqk&ab_channel=FoodInsider"
+
     }
 ]);
 
@@ -281,3 +280,4 @@ db.favourites.insertMany([
         "sourceUrl": "https://detoxinista.com/matcha-smoothie/"
         }
 ]);
+
